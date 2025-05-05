@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Introduction
+
+This is a Tailwind Dark Mode template made by using next(version 15) and tailwindcss(version 4)
 
 ## Getting Started
 
