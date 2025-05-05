@@ -1,2 +1,10 @@
 @import "tailwindcss";
 
+
+@layer base {
+  * {
+    font-family: "Prompt", sans-serif;
+  }
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
