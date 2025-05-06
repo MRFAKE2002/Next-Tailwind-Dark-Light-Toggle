@@ -3,7 +3,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="insolate">
+    <div className="isolate">
       <div className="absolute inset-0 -z-10">
         {/* Background Circle  */}
         <div className="absolute top-0 -left-1/4 w-1/2 h-1/2 bg-amber-400 dark:bg-amber-500 rounded-full blur-3xl opacity-20"></div>
@@ -90,7 +90,7 @@ function Hero() {
                   {/* Text */}
                   <p className="text-neutral-600 dark:text-neutral-400 text-sm">
                     Trusted by
-                    <span className="font-bold text-neutral-900 dark:text-white">
+                    <span className="font-bold text-neutral-900 dark:text-white mx-1">
                       5,000+
                     </span>
                     developers worldwide
