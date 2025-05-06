@@ -18,7 +18,7 @@ export default function Home() {
           className="absolute inset-0 dark:hidden"
           style={{
             backgroundImage:
-              "radial-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px",
+              'radial-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px)',
             backgroundSize: "20px 20px",
           }}
         ></div>
