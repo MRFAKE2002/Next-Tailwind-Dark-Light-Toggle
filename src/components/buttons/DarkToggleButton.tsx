@@ -44,7 +44,7 @@ function DarkToggleButton({}: Props) {
 
   return (
     <button
-      className="fixed top-3 lg:top-4 right-3 lg:right-4 w-9 h-9 lg:w-10 lg:h-10 rounded-full flex justify-center items-center shadow-lg bg-amber-500 text-neutral-950 hover:bg-amber-600 transition-colors"
+      className="fixed top-3 lg:top-4 right-3 lg:right-4 w-9 h-9 lg:w-10 lg:h-10 rounded-full flex justify-center items-center shadow-lg bg-amber-500 text-neutral-950 hover:bg-amber-600 transition-colors z-10"
       onClick={toggleDarkMode}
     >
       <i
