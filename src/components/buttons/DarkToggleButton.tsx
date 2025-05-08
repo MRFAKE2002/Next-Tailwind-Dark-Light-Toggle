@@ -3,10 +3,7 @@
 //! Libraries
 import React, { useEffect, useState } from "react";
 
-//! Type
-type Props = {};
-
-function DarkToggleButton({}: Props) {
+function DarkToggleButton() {
   //! useState
 
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
