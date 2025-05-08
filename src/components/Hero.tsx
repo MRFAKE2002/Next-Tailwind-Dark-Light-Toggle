@@ -57,17 +57,23 @@ function Hero() {
                 {/* Images Users */}
                 <div className="flex -space-x-3">
                   <Image
-                    src="http://randomuser.me/api/portraits/women/21.jpg"
+                    width={36}
+                    height={36}
+                    src="https://randomuser.me/api/portraits/women/21.jpg"
                     alt="User"
                     className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover"
                   />
                   <Image
-                    src="http://randomuser.me/api/portraits/men/12.jpg"
+                    width={36}
+                    height={36}
+                    src="https://randomuser.me/api/portraits/men/12.jpg"
                     alt="User"
                     className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover"
                   />
                   <Image
-                    src="http://randomuser.me/api/portraits/women/24.jpg"
+                    width={36}
+                    height={36}
+                    src="https://randomuser.me/api/portraits/women/24.jpg"
                     alt="User"
                     className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover"
                   />
