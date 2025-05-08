@@ -85,10 +85,10 @@ function Hero() {
                 <div className="space-y-1">
                   {/* Stars */}
                   <div className="flex items-center">
-                    <i className="bx bx-star text-amber-500 mr-1"></i>
-                    <i className="bx bx-star text-amber-500 mr-1"></i>
-                    <i className="bx bx-star text-amber-500 mr-1"></i>
-                    <i className="bx bx-star text-amber-500 mr-1"></i>
+                    <i className="bx bxs-star text-amber-500 mr-1"></i>
+                    <i className="bx bxs-star text-amber-500 mr-1"></i>
+                    <i className="bx bxs-star text-amber-500 mr-1"></i>
+                    <i className="bx bxs-star text-amber-500 mr-1"></i>
                     <i className="bx bxs-star-half text-amber-500 mr-1"></i>
                     <span className="text-neutral-600 dark:text-neutral-400 text-sm ml-1">
                       4.8/5
