@@ -1,5 +1,6 @@
 //! Libraries
 import React from "react";
+import Image from "next/image";
 
 function Hero() {
   return (
@@ -55,17 +56,17 @@ function Hero() {
               <div className="flex flex-col sm:flex-row gap-5 sm:items-center pt-6 lg:pt-7 border-t border-neutral-200 dark:border-neutral-800">
                 {/* Images Users */}
                 <div className="flex -space-x-3">
-                  <img
+                  <Image
                     src="http://randomuser.me/api/portraits/women/21.jpg"
                     alt="User"
                     className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover"
                   />
-                  <img
+                  <Image
                     src="http://randomuser.me/api/portraits/men/12.jpg"
                     alt="User"
                     className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover"
                   />
-                  <img
+                  <Image
                     src="http://randomuser.me/api/portraits/women/24.jpg"
                     alt="User"
                     className="w-9 h-9 lg:w-10 lg:h-10 rounded-full border-2 border-white dark:border-neutral-900 object-cover"
